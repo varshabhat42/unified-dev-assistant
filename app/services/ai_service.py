@@ -26,8 +26,3 @@ class AIService:
             max_tokens=150
         )
         return response.choices[0].text.strip()
-
-    def adding_dummy_method(self, code: str) -> str:
-        code.strip()
-        logger.info("added dummy code")
-        return null
