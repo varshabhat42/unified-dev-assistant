@@ -26,3 +26,7 @@ class AIService:
             max_tokens=150
         )
         return response.choices[0].text.strip()
+
+
+    def divide(self, a, b):
+        return a/b
