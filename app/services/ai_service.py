@@ -30,3 +30,6 @@ class AIService:
 
     def divide(self, a, b):
         return a/b
+
+    def subtract(self, a, b):
+        return a-b
