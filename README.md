@@ -78,7 +78,8 @@ How to create a github token:
 Visit Github platform (logged in) -> Settings -> Developer settings -> Personal Access Tokens -> Token (classic). Give atleast repo, workflow, write:packages, gist, notifications, write:discussion, project permissions. 
 **Note:** DO NOT use fine-grained tokens, they might cause issues
 
-After these changes your .env file should look like: 
+How to use these keys:
+Create a .env file in the root directory (if not present). Add the below lines to it
 
 
 ```bash
