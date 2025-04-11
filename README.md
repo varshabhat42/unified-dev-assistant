@@ -51,8 +51,8 @@ An AI-powered tool that automatically analyzes GitHub pull requests and local co
 
 ## Project Setup
 
-### 1. Clone the repository
-First, clone the repository to your local machine:
+### 1. Fork Clone the repository
+First, fork the repository to your personal repo in github. Then, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/varshabhat42/unified-dev-assistant.git
