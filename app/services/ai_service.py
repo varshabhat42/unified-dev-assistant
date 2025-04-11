@@ -69,3 +69,6 @@ class AIService:
         
         # Return the formatted diagram code for GitHub (ensure proper syntax)
         return diagram_code.strip()
+
+    def divide(self, a, b):
+        return a/b
