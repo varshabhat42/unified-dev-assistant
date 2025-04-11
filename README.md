@@ -20,6 +20,7 @@ The Unified Dev Assistant is an AI powered developer assistant. It summarizes PR
 
 An AI-powered tool that automatically analyzes GitHub pull requests and local codebases, performing the following actions:
 
+-   Efficient Github Interaction (Read PR data such as old and new files, post comments onto Github)
 -   Review Pull Requests
 -   Summarize code changes in a PR in a clear and concise format.
 -   Flag risky or complex changes for human review.
@@ -148,3 +149,4 @@ Some add on features include:
 - Auto-Tag and Summarize Issues:
     -   When a PR is linked to issues (or when analyzing standalone issues), automatically summarize the issue and apply intelligent tags (e.g., bug, enhancement, documentation).
     -   Suggest relevant tests if the issue describes a bug.
+- Known issue: As the mermaids are AI generated, the mermaid syntax output is sometimes incorrect. Solution: Refine the prompt and add some parsing logic after AI generates the mermaid for an easy fix.
