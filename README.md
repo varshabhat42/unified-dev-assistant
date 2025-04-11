@@ -113,6 +113,18 @@ Keep this terminal open. Now open powershell and type the below command. Keep th
 ngrok http 8000
 ```
 
+Ngork spits out a forwarding URL with the message "Forwarding                    https://6903-2601-646-827e-7b20-ac2c-50f4-f402-b51c.ngrok-free.app -> http://localhost:800"
+
+Copy this URL, go to this repository, go to repository settings -> webhooks -> paste the payload URL in the below format. Pay attention to "/webhook" appended at the end. Set the content type to application/json, enable SSL verification, click let me select individual events -> Pull request. Also make sure "Active" is checked and click "Update/Create webhook"
+
+As your app is already running through steps above, github will attempt to ping the app, and you should see a ping coming through both on your ngork terminal and application logs in VSCode terminal.
+
+```bash
+https://6903-2601-646-827e-7b20-ac2c-50f4-f402-b51c.ngrok-free.app/webhook
+```
+
+We are now ready to see the app work!
+
 Now go to this github repo, and create a new branch. Name it "my_new_branch_1"
 Make a change in the ai_service.py file. Add a simple method as below at the end of the file. Commit it to the branch and open a PR. DO NOT MERGE THE PR TO MAIN. And that's it! You should see the logs coming through, our app generating comments based on LIVE data, generating test cases and generating mermaids.
 After the app has run successfully, you will see a comment on the PR.
