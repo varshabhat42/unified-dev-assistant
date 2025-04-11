@@ -1,6 +1,6 @@
 # Unified Dev Assistant
 
-The **Unified Dev Assistant** is a versatile application that leverages LangChain, OpenAI, and Wikipedia to assist developers by answering questions, generating test cases, visualizing code structures, and more. This project offers two implementations of a Wikipedia research tool with both a **Command Line Interface (CLI)** and a **Web Interface** for easy interaction.
+The **Unified Dev Assistant** is a versatile application that leverages LangChain, OpenAI, and Git to assist developers by summarizing PRs, generating test cases, visualizing code structures, and more.
 
 ## Table of Contents
 
@@ -137,6 +137,7 @@ def divide(self, a, b):
 
 ## Video Demonstration
 A link to the working of the app from start to finish has been provided below - 
+https://www.youtube.com/watch?v=TmYX_F8Rtk0
 
 
 ## Future Work
